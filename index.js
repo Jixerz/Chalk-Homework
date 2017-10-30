@@ -1,0 +1,25 @@
+const chalk = require('chalk');
+
+console.log(chalk.underline.bgBlue('Hello', chalk.underline.bgBlue('world') + chalk.red('!')));
+console.log(chalk.black(' '));
+console.log(chalk.blue('If I hadnt made me'));
+console.log(chalk.red.underline.bold('I would have been made somehow'));
+console.log(chalk.yellow('If I hadnt assembled myself'));
+console.log(chalk.cyan('Id have fallen apart by now'));
+console.log(chalk.magenta('If I hadnt made me'));
+console.log(chalk.green('Id be more inclined to bow'));
+console.log(chalk.black(' '));
+console.log(chalk.gray.underline.bold('Powers that would be have swallowed me up'));
+console.log(chalk.white.underline.bold('But thats more than I can allow'));
+console.log(chalk.black(' '));
+console.log(chalk.blue('If you let them make you'));
+console.log(chalk.red('Theyll make you papier-mâché'));
+console.log(chalk.yellow('At a distance youre strong'));
+console.log(chalk.cyan('Until the wind comes'));
+console.log(chalk.magenta('Then you crumble and blow away'));
+console.log(chalk.black(' '));
+console.log(chalk.red.underline.bold.bgWhite.bold('You should only make amends with you'));
+console.log(chalk.red.underline.bold.bgWhite.bold('If only for better health'));
+console.log(chalk.red.underline.bold.bgWhite.bold('But if you really want to live'));
+console.log(chalk.red.underline.bold.bgWhite.bold('Why not try and make yourself?'));
+console.log(chalk.black(' '));
